@@ -3,14 +3,14 @@ package jobs.secondunit;
 /**
  * Created by 36249 on 2017/4/21.
  */
-public class TwoAndNine {
+public class TwoAndEight {
 
     /**
      *
      * @param arr
      * @param k   0 < k < n - 1
      */
-    public void twoAndNine(int[] arr,int k){
+    public void swapTwoPart(int[] arr,int k){
 
         int length = arr.length;
         if(k <= 0 || k >= length){
@@ -67,8 +67,8 @@ public class TwoAndNine {
 
         int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
 
-        TwoAndNine secondUnit = new TwoAndNine();
-        secondUnit.twoAndNine(arr,9);
+        TwoAndEight secondUnit = new TwoAndEight();
+        secondUnit.swapTwoPart(arr,9);
 
         for(int i = 0; i < arr.length; ++i){
 
