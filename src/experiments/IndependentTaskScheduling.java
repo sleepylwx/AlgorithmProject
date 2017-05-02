@@ -1,9 +1,10 @@
 package experiments;
 
 /**
+ * 算法实现3-1
  * Created by 36249 on 2017/4/26.
  */
-public class Fourth {
+public class IndependentTaskScheduling {
 
 
     //独立任务最优调度
@@ -48,7 +49,7 @@ public class Fourth {
 
     public static void main(String[] args) {
 
-        Fourth test = new Fourth();
+        IndependentTaskScheduling test = new IndependentTaskScheduling();
 
         int[] a = new int[]{2,5,7,10,5,2};
         int[] b = new int[]{3,8,4,11,3,4};

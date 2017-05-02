@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 /**
  * Created by 36249 on 2017/4/26.
  */
-public class Fifth {
+public class HuffmanTree {
 
 
     public Node func(String str) {
@@ -69,7 +69,7 @@ public class Fifth {
     public static void main(String[] args) {
 
         String a = "aaabbc";
-        Fifth test = new Fifth();
+        HuffmanTree test = new HuffmanTree();
         Node header = test.func(a);
 
         System.out.println((char) header.right.left.value);

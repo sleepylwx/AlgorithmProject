@@ -3,9 +3,10 @@ package experiments;
 import java.util.Arrays;
 
 /**
+ * 二分查找 迭代实现和递归实现
  * Created by 36249 on 2017/3/29.
  */
-public class First {
+public class BinarySearch {
 
     public <T extends Comparable>int binarySearch(T[] arr,T target){
 
@@ -70,7 +71,7 @@ public class First {
 
     public static void main(String[] args) {
 
-        First first = new First();
+        BinarySearch first = new BinarySearch();
         int[] arr = new int[] {91,23,557,216,72,-20};
         Arrays.sort(arr);
         System.out.println(first.binarySearch(arr,216,0,5));

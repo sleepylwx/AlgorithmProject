@@ -1,9 +1,10 @@
 package experiments;
 
 /**
+ * 动态规划0-1背包问题
  * Created by 36249 on 2017/4/19.
  */
-public class Third {
+public class ZeroOneBag {
 
 
     public void zeroAndOneBag(int[] weights,int[] values,int[][] map,int limit){
@@ -85,7 +86,7 @@ public class Third {
             map[i] = new int[limit+1];
         }
 
-        Third third = new Third();
+        ZeroOneBag third = new ZeroOneBag();
         third.zeroAndOneBag(weights,values,map,limit);
 
 
@@ -112,9 +113,3 @@ public class Third {
 }
 
 
-class Another{
-
-
-
-
-}

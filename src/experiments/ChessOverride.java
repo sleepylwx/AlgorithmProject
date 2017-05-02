@@ -1,9 +1,10 @@
 package experiments;
 
 /**
+ * 棋盘覆盖问题
  * Created by 36249 on 2017/4/5.
  */
-public class Second {
+public class ChessOverride {
 
     private int count;
     public int[][] overrideChessBoard(int[][] arr,int x,int y){
@@ -98,7 +99,7 @@ public class Second {
     public static void main(String[] args) {
 
         final int LEN = 8;
-        Second second = new Second();
+        ChessOverride second = new ChessOverride();
         int[][] arr = new int[LEN][];
         for(int i = 0; i < LEN ;++i){
 
