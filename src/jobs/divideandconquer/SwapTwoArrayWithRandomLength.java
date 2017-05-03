@@ -1,12 +1,12 @@
-package jobs.secondunit;
+package jobs.divideandconquer;
 
 /**
  * Created by 36249 on 2017/4/21.
  */
-public class TwoAndEight {
+public class SwapTwoArrayWithRandomLength {
 
     /**
-     *
+     *算法分析 2-8
      * @param arr
      * @param k   0 < k < n - 1
      */
@@ -67,7 +67,7 @@ public class TwoAndEight {
 
         int[] arr = new int[]{1,2,3,4,5,6,7,8,9};
 
-        TwoAndEight secondUnit = new TwoAndEight();
+        SwapTwoArrayWithRandomLength secondUnit = new SwapTwoArrayWithRandomLength();
         secondUnit.swapTwoPart(arr,9);
 
         for(int i = 0; i < arr.length; ++i){
