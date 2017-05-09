@@ -1,7 +1,7 @@
-package jobs.greedy;
+package experiments;
 
 /**
- * 汽车加油问题
+ * 贪心算法 汽车加油问题
  * Created by 36249 on 2017/5/3.
  */
 
@@ -49,7 +49,7 @@ public class CarFuelUp {
 
 
         CarFuelUp test = new CarFuelUp();
-        int[] distance = new int[]{1,2,3,4,5,1,6,6};
+        int[] distance = new int[]{1,1,1,1,1,1,1,2};
         int runMax = 7;
         System.out.println(test.func(runMax,distance));
     }

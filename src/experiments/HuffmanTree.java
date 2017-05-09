@@ -6,6 +6,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 /**
+ * 贪心算法 哈夫曼树 最优前缀码
  * Created by 36249 on 2017/4/26.
  */
 public class HuffmanTree {
